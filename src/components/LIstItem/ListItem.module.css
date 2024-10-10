@@ -1,0 +1,17 @@
+.itemContainer {
+  width: 350px;
+  height: fit-content;
+  min-height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 0.6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.itemContainer > label {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
